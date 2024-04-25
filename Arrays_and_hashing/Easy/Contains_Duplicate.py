@@ -18,7 +18,7 @@ def containsDuplicate1(nums:list[int]) -> bool:
 # solution without built in sort function
 def containsDuplicate2(nums:list[int]) -> bool:
 
-    # sorting a list using loops
+    # sorting a list using bubble sort
     for i in range(len(nums)):
         for j in range(i+1, len(nums)):
             if nums[i] >= nums[j]:
